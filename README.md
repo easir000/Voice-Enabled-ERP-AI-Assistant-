@@ -31,7 +31,7 @@ Clone the Repository
 
 
 
-git clone https://github.com/your-username/voice-money-request.git
+git clone [https://github.com/your-username/voice-money-request.git](https://github.com/easir000/voice-money-request.git)
 cd voice-money-request
 Install Dependencies Make sure you have pip installed. Then, run:
 
