@@ -5,7 +5,7 @@
 <p>Prerequisites<br />Before running the project, ensure you have the following installed:</p>
 <p>Python 3.8 or higher<br />OpenAI API key (create an account at OpenAI)<br />Required Python packages (see below)<br />Installation<br />Clone the Repository</p>
 <p>&nbsp;</p>
-<p>git clone [https://github.com/your-username/voice-money-request.git](https://github.com/easir000/voice-money-request.git)<br />cd voice-money-request<br />Install Dependencies Make sure you have pip installed. Then, run:</p>
+<p>git clone https://github.com/easir000/voice-money-request.git)<br />cd voice-money-request<br />Install Dependencies Make sure you have pip installed. Then, run:</p>
 <p>&nbsp;</p>
 <p>pip install -r requirements.txt<br />Set Up Environment Variables</p>
 <p>&nbsp;</p>
