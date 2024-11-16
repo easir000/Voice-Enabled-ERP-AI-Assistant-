@@ -16,9 +16,10 @@ Whisper: Speech-to-text transcription.
 OpenAI GPT: Command processing and natural language understanding.
 SpeechRecognition: Captures audio input from users.
 Pyttsx3: Text-to-speech for responses.
-Flask: Optional deployment as a web application.
-SQLite: Database for storing money requests.
+
+
 Getting Started
+
 Prerequisites
 Before running the project, ensure you have the following installed:
 
@@ -28,31 +29,34 @@ Required Python packages (see below)
 Installation
 Clone the Repository
 
-bash
-Copy code
+
+
 git clone https://github.com/your-username/voice-money-request.git
 cd voice-money-request
 Install Dependencies Make sure you have pip installed. Then, run:
 
-bash
-Copy code
+
+
 pip install -r requirements.txt
 Set Up Environment Variables
 
-Create a .env file in the root directory:
-makefile
-Copy code
+
+
 OPENAI_API_KEY=your-openai-api-key
 Replace your-openai-api-key with your actual API key.
 Running the Application
 To start the system, run the following command:
 
-bash
-Copy code
+
+
 python main.py
+
 How to Use
+
 The system will start listening for voice input.
+
 Speak your command, for example:
+
 "I need to request money for project 223 to buy tools, the amount is 500 riyals."
 The system will confirm the details:
 "You are requesting money for project 223, amount: 500 riyals, for buying tools. Do you want to proceed?"
@@ -72,15 +76,18 @@ User: "200 riyals."
 AI Agent: "You are requesting money for project 105, amount: 200 riyals, for buying tools. Do you want to proceed?"
 User: "Yes."
 AI Agent: "Request submitted successfully."
+
 Deployment
 Option 1: Deploy on Hugging Face Spaces
 Create an account on Hugging Face.
 Upload your code and set up a new Gradio space for your app.
 Once deployed, share the live demo link.
+
 Option 2: Deploy on Google Colab
 Upload the project to a Google Colab notebook.
 Install dependencies and run the code in the Colab environment.
 Share the notebook link for others to interact with the system.
+
 Database Structure
 The application uses an SQLite database to store money request details. The database schema is as follows:
 
@@ -95,32 +102,32 @@ Future Enhancements
 Support for multiple languages for voice recognition and responses.
 Integration with other project management tools for automated approvals.
 Deployment on cloud platforms like AWS or Azure for scalability.
+
 Troubleshooting
 Common Issues
 Error: No API Key Provided
-Make sure you have set up your .env file with a valid OpenAI API key.
+
 
 Speech Recognition Not Working
 Check if your microphone is properly configured and accessible by the application.
 
-Database Connection Errors
-Ensure the database.db file has the correct read/write permissions.
+
 
 Contributing
 We welcome contributions! Feel free to open issues or submit pull requests to improve the project.
 
 Fork the repository.
 Create a new branch:
-bash
-Copy code
+
+
 git checkout -b feature-branch
 Make your changes and commit:
-bash
-Copy code
+
+
 git commit -m "Add new feature"
 Push to your branch:
-bash
-Copy code
+
+
 git push origin feature-branch
 Open a pull request on GitHub.
 License
